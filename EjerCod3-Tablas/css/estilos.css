@@ -1,0 +1,57 @@
+body
+{
+	margin-left: 15%;
+	font-family: Verdana;
+	width: 70%;
+	color: #605B56;
+}
+
+/*edicion del header*/
+header h1
+{
+	padding: 3px 10px; /*dos primeras lineas agregadas*/
+  margin-bottom: 5px;
+	padding-left: 10px;
+	border-radius: 6px;
+	background: -webkit-linear-gradient(left, #5CA861 , #BADFBC); /*linea para mozilla*/
+  background: -moz-linear-gradient(right, #5CA861 , #BADFBC);/*linea para safari*/
+  background: linear-gradient(to right, #5CA861 , #BADFBC); /*linea original, donde se especifican los colores*/
+  border-radius: 10px; /*para las esquinas del banner*/
+}
+
+#menu-principal ul {
+	float: left;
+	width: 200px;
+	padding: 0;
+	margin: 0;
+}
+
+#menu-principal ul li {
+	padding: 10px;
+	list-style-type: none;
+}
+
+#contenido
+{
+  background-image: url(../imagenes/imagen3.jpg);
+	border-radius: 6px; /*las esquinas, los bordes*/
+	margin-left: 200px;
+	padding: 10px;
+	color: black;
+}
+
+footer {
+	clear: both;
+	border-top: solid 2px #605B56;
+	padding-top: 10px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+#contenido p img
+{
+	float: right;
+	border: 2px solid #605B56; /*borde negro de la imagen pequeña*/
+	margin: 3px;
+	border-radius: 4px;
+}

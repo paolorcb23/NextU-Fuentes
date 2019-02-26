@@ -1,0 +1,19 @@
+@font-face
+{
+  font-family: 'FreeSans'; /*se declara el nombre de fuente a usar*/
+  src: url('FreeSans.otf');
+}
+
+h1
+{
+  font-family: 'FreeSans'; /*declarado arriba en @font-face ahora se usa aqui en esta etiqueta*/
+  font-size: 2em;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+p
+{
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.2em;
+}

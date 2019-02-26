@@ -1,0 +1,15 @@
+/*ALINEACION DE TEXTO*/
+p
+{
+  text-align: justify; /*como en word, se usa derecha, izq y justificado*/
+  text-indent: 2cm; /*espacio de la 1ra linea, con el margen izq*/
+  text-transform: capitalize; /*la 1ra letra en mayuscula*/
+  letter-spacing: 5px; /*espacio entre letras*/
+}
+
+h1
+{
+  text-decoration: overline;
+  word-spacing: 30px; /*espacio entre palabras*/
+  color: orange;
+}

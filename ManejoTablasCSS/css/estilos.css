@@ -1,0 +1,36 @@
+table, td, th /*podemos usar las 3 etiquetas a la vez */
+{
+  border: 1px solid black;
+}
+
+table
+{
+  width: 50%; /*esto es un ejemplo de como la tabla se agranda*/
+  border-collapse: collapse;
+}
+
+/*para el tamaño de las celdas*/
+td, th
+{
+  width: 100px;
+  height: 30px;
+}
+
+/*para alinear textos dentro de las Tablas*/
+th
+{
+  text-align: right;
+  vertical-align: top;
+}
+
+td
+{
+  text-align: left;
+  vertical-align: bottom;
+}
+
+/*para aplicar color a las celdas*/
+tr:nth-child(odd)
+{
+  background-color: #D1D1D1;
+}
